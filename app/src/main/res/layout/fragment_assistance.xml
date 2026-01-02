@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real-Time Assistance"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Weather Widget (Simulated) -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kuala Lumpur Weather"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/tvWeather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading..."
+                android:textSize="32sp"
+                android:textColor="#F57C00"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Emergency Buttons -->
+    <Button
+        android:id="@+id/btnPolice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Tourist Police (999)"
+        android:backgroundTint="#D32F2F"/>
+
+    <Button
+        android:id="@+id/btnAmbulance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Ambulance"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#D32F2F"/>
+
+</LinearLayout>

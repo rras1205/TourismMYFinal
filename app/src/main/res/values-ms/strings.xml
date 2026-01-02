@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TourismMY</string>
+    <string name="profile_title">Profil Saya</string>
+    <string name="name_label">Nama:</string>
+    <string name="email_label">Emel:</string>
+    <string name="btn_logout">Log Keluar</string>
+    <string name="change_lang">Tukar Bahasa (EN/MY)</string>
+    <string name="loading">Sedang memuatkan...</string>
+</resources>

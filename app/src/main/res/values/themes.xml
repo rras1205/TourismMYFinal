@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- FIXED: Removed .NoActionBar so the top bar appears -->
+    <style name="Base.Theme.TourismMY" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TourismMY" parent="Base.Theme.TourismMY" />
+</resources>

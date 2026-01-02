@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TourismMY</string>
+    <string name="profile_title">My Profile</string>
+    <string name="name_label">Name:</string>
+    <string name="email_label">Email:</string>
+    <string name="btn_logout">Logout</string>
+    <string name="change_lang">Switch Language (EN/MY)</string>
+    <string name="loading">Loading...</string>
+</resources>
