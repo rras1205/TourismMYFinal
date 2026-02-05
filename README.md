@@ -77,4 +77,31 @@ The app focuses on:
 |-----------------|------------------|
 | ![Admin Main Page](screenshots/AdminSide-AdminMainPage.png) | ![Firebase Database](screenshots/AdminSide-FirebaseDatabase.png) |
 
+## Technology Stack
+
+- **Language:** Java
+- **Platform:** Android SDK
+- **Authentication:** Firebase Authentication
+- **Database:** Cloud Firestore
+- **UI:** XML layouts with Material Design components
+- **Build System:** Gradle
+
+## Architecture Overview
+
+The application follows a straightforward separation of concerns between UI, data models, and control logic.
+
+- **Activities & Fragments** handle user interaction and navigation.
+- **Model classes** represent users, listings, bookings, and itineraries.
+- **Firebase services** manage authentication and cloud data storage.
+
+Role-based routing is enforced at login, where users are redirected to the appropriate interface (Tourist, Business, or Admin) based on their assigned role in Firestore.
+
+## Data Handling
+
+- User authentication is managed by Firebase Authentication.
+- Application data (users, listings, bookings, itineraries) is stored in Cloud Firestore.
+- Read and write operations are performed asynchronously to avoid blocking the UI thread.
+- Sensitive data such as passwords is never stored locally.
+
+
 
