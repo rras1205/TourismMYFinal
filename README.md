@@ -103,5 +103,25 @@ Role-based routing is enforced at login, where users are redirected to the appro
 - Read and write operations are performed asynchronously to avoid blocking the UI thread.
 - Sensitive data such as passwords is never stored locally.
 
+## Limitations
+
+This project is a functional prototype and was built with a limited scope. As such, several features are intentionally incomplete or simplified:
+
+- Payment processing is simulated and does not integrate with real payment gateways.
+- Booking and business management flows support only basic validation and happy-path scenarios.
+- The itinerary generator uses static, rule-based logic rather than adaptive or data-driven algorithms.
+- Multi-language support is limited to English and Malay and is only implemented on selected screens.
+- Error handling and edge cases are minimal and would require further refinement for production use.
+
+## Future Improvements
+
+- Integrate real payment gateways (e.g., Stripe or local e-wallets).
+- Expand itinerary generation using user behavior or preference-based logic.
+- Improve multi-language support across the entire application.
+- Add comprehensive input validation and error handling.
+- Introduce automated testing for core user flows.
+
+
+
 
 
